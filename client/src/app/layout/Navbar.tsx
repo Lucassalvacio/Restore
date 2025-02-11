@@ -1,5 +1,4 @@
 import { AppBar, IconButton, Toolbar, Typography } from "@mui/material";
-
 import { DarkMode, LightMode } from "@mui/icons-material";
 
 type Props = {

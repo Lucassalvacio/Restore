@@ -1,0 +1,18 @@
+.test1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.test{
+    padding: 0;
+    margin: 0;
+}
+
+.test1:hover{
+    z-index: 1;
+    background-image: url(../../../../public/images/products/open.jpg);
+    background-size: contain    ;
+}

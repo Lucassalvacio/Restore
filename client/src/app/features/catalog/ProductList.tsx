@@ -18,7 +18,9 @@ const ProductList = ({ products }: Props) => {
         }}
       >
         {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
+          <ProductCard key={product.id
+            
+          } product={product} />
         ))}
       </Box>
     </>

@@ -1,11 +1,13 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material"
 import { Product } from "../../model/product"
+import classes from "./ProductCard.module.css"
 
 type Props = {
     product: Product
 }
 
 const ProductCard = ({product}: Props) => {
+    
   return (
     <Card
         elevation={3}
@@ -21,7 +23,8 @@ const ProductCard = ({product}: Props) => {
                 sx={{height: 240, backgroundSize: 'cover'}}
                 image={product.pictureUrl}
                 title={product.name}
-            />
+                className={classes.test}
+            > <div className={classes.test1}></div></CardMedia>
             <CardContent>
                 <Typography
                     gutterBottom
