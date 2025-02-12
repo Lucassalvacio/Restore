@@ -3,6 +3,7 @@ import Catalog from "../features/catalog/Catalog";
 
 import Navbar from "./Navbar";
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 
 
 
@@ -27,7 +28,7 @@ function App() {
       <Navbar darkMode={setDarkMode} dark={darkMode}/>
       <Box sx={{minHeight: '100vh', background: darkMode ?  'radial-gradient(circle, #1e3aBa, #111B27)' : 'radial-gradient(circle, #baecf9, #f0f9ff)', paddingTop: '20vh'}}>
       <Container>
-        <Catalog />
+        <Outlet/>
       </Container>  
       </Box>
       

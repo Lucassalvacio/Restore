@@ -13,7 +13,7 @@ const ProductList = ({ products }: Props) => {
         sx={{
           display: "flex",
           flexWrap: "wrap",
-          gap: 3,
+          gap:3,
           justifyContent: "center",
         }}
       >

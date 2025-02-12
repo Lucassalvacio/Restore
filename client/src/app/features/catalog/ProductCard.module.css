@@ -12,7 +12,7 @@
 }
 
 .test1:hover{
-    z-index: 1;
+    z-index: 0;
     background-image: url(../../../../public/images/products/open.jpg);
     background-size: contain    ;
 }
